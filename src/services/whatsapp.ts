@@ -4853,7 +4853,7 @@ Link referensi: ${randomItem.link}` }, { quoted: msg });
            
            const tspans = lines.map((line, i) => `<tspan x="344" dy="${i === 0 ? 0 : '19'}">${line.trim()}</tspan>`).join('');
            
-           const svgText = `<svg width="1280" height="960" xmlns="http://www.w3.org/2000/svg">
+           const svgText = `<svg width="1024" height="784" xmlns="http://www.w3.org/2000/svg">
              <text x="806" y="78" font-size="20" font-family="cursive, sans-serif" fill="#1b1b1b">${hari}</text>
              <text x="806" y="102" font-size="18" font-family="cursive, sans-serif" fill="#1b1b1b">${tanggal}</text>
              <text x="360" y="100" font-size="18" font-family="cursive, sans-serif" fill="#1b1b1b">${safeName}</text>
